@@ -1,0 +1,23 @@
+header {
+    border: 3px solid #b7b5b5d6;
+    /* border-style: ridge; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    position: fixed;
+    width: 98.4%;
+    top: 0px;
+    left: 0px;
+}
+header img {
+    width: 100px;
+}
+header h1 {
+    flex-grow: 1;
+    font-family: 'Rubik', sans-serif;
+}
+header a {
+    font-family: 'Rubik', sans-serif;
+    margin: 15px;
+}
