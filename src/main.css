@@ -1,3 +1,7 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
 header {
     border: 3px solid #b7b5b5d6;
     /* border-style: ridge; */
@@ -6,12 +10,16 @@ header {
     justify-content: space-between;
     padding: 5px;
     position: fixed;
+    z-index: 1;
+    background: white;
     width: 98.4%;
+    height: 10%;
     top: 0px;
     left: 0px;
+    box-shadow: 0px 1px 5px;
 }
 header img {
-    width: 100px;
+    height: 95%;
 }
 header h1 {
     flex-grow: 1;
