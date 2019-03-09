@@ -12,17 +12,45 @@
 <body>
     <header>
         <img src="assets/pokeball-2.png">
-        <h1>PokedExcess</h1>
+        <h1>PokedeXcess</h1>
+        <p>Get Details About Any Pokemon</p>
         <a href="./index.html">Home</a>
     </header>
     <main>
         <div>
-            <section id="search-form">
-                <input>
-            </section>
+            <div id="search-wrapper">
+                <form id="poke-search" class="search-form">
+                    <h2>Search for a Pokemon!</h2>
+                    <div>
+                        <input name="name" placeholder="name">
+                        <button>Search!</button>
+                    </div>
+                    <img src="http://assets.pokemon.com/assets/cms2/img/pokedex/full/009.png">
+                </form>
+                <form id="poke-compare" class="search-form">
+                    <h2>Compare two Pokemon!</h2>
+                    <div>
+                        <input name="name-1" placeholder="name">
+                        <input name="name-2" placeholder="name">
+                        <button>Compare!</button>
+                    </div>
+                    <img src="http://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png">
+                </form>
+            </div>
+        </section>
             <section id="gallery"></section>
         </div>
-        <nav></nav>
+        <nav>
+            <ul>
+                <li><a>Abilities</a></li>
+                <li><a>Items</a></li>
+                <li><a>Moves</a></li>
+                <li><a>Eggs</a></li>
+                <li><a>Berries</a></li>
+                <li><a>Natures</a></li>
+                <li><a>Locations</a></li>
+            </ul>
+        </nav>
     </main>
     <footer></footer>   
     <script type="module" src="src/index/index.js"></script>
